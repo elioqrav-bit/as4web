@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1 - HTML5 Validation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Contact Us (HTML5 validation)</h1>
+
+<form action="#" method="post">
+    <p>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="30">
+    </p>
+    <p>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+    </p>
+    <p>
+        <label for="message">Message (10-200 characters):</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required minlength="10" maxlength="200"></textarea>
+    </p>
+    <button type="submit">Send</button>
+</form>
+</body>
+</html>
